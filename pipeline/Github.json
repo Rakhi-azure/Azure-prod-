@@ -1,6 +1,21 @@
 {
 	"name": "Github",
 	"properties": {
+		"activities": [
+			{
+				"name": "Copy Activity",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Copy Activity",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
 		"annotations": []
 	}
 }
