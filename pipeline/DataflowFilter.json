@@ -1,0 +1,33 @@
+{
+	"name": "DataflowFilter",
+	"properties": {
+		"activities": [
+			{
+				"name": "Filter",
+				"type": "ExecuteDataFlow",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataflow": {
+						"referenceName": "Filter",
+						"type": "DataFlowReference"
+					},
+					"compute": {
+						"coreCount": 8,
+						"computeType": "General"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2020-11-05T19:06:15Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
