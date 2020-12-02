@@ -10,7 +10,7 @@
 					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "6v4dieLyOpEIPUhdkUPyv6PZzrUXHvCIQjHJC+NlRBdrYOjh+iC72lSmjqYN/bEVYMeBVxnyeZHiw2a9KToKxQ=="
+				"secretName": "DefaultEndpointsProtocol=https;AccountName=rakstorage123;AccountKey=6v4dieLyOpEIPUhdkUPyv6PZzrUXHvCIQjHJC+NlRBdrYOjh+iC72lSmjqYN/bEVYMeBVxnyeZHiw2a9KToKxQ==;EndpointSuffix=core.windows.net"
 			}
 		}
 	},
